@@ -19,10 +19,6 @@ public class Media {
         this.media = soma / notas.length;
     }
 
-    public Integer getMedia() {
-        return media;
-    }
-
     @Override
     public String toString() {
         if (media >= 7) {
